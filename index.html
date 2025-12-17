@@ -7,12 +7,6 @@
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-<nav>
-  <a href="index.html">หน้าแรก</a> |
-  <a href="cart.html">ตะกร้า</a> |
-  <a href="summary.html">สรุปรายการ</a> |
-  <a href="admin.html">หลังร้าน</a>
-</nav>
 
     <header>
         <p style="text-align:center; font-size:18px;">
@@ -22,6 +16,22 @@
         <h1>ระบบสั่งอาหารออนไลน์ (QR Menu)</h1>
         <p>สแกน QR Code แล้วเลือกเมนูโปรดของคุณได้เลย</p>
     </header>
+
+<nav>
+  <a href="index.html">หน้าแรก</a> |
+  <a href="cart.html">ตะกร้า</a> |
+  <a href="summary.html">สรุปรายการ</a> |
+  <a href="admin.html">หลังร้าน</a>
+</nav>
+
+
+
+
+
+
+
+
+
 
     <h2>🍛 เมนูอาหารคาว (Main Dishes)</h2>
     <div class="menu-category" id="main-dishes">
@@ -218,7 +228,8 @@ function checkout() {
     }
 
     // ไปหน้าสรุปรายการ
-    window.location.href = "สรุปรายการ.html";
+    window.location.href = "summary.html";
+
 }
 
 
@@ -233,5 +244,4 @@ document.getElementById("table-number").innerText = tableNumber;
 
 </script>
 </body>
-
 </html>
